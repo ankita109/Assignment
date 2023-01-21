@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>GUESS KRO PRIZE JEETO</h1>
+    <form onsubmit="btnclick()" >
+        <label class="lbl">
+       Enter The Number :-
+        <input type="number" class="inp" placeholder="enter the number between 0-100" required>
+       </label>
+        <input type="submit" class="sbtn" value="SUBMIT"  ></button>
+    
+</form>
+<button onclick="reset()" id="rbtn">RESET</button>
+    <script>
+        var n=Math.floor(Math.random()*100);
+        function btnclick(){
+            var x=document.getElementById("inp");
+            if(x==n){
+                console.log("click");
+            }else{
+                console.log("cli");
+            }
+            
+        }
+
+
+        function reset(){
+            console
+        }
+    </script>
+        <!-- <script>
+            var g=Math.floor(Math.random()*5);
+            var bool=true;
+            while(bool){
+                var x=prompt("Enter the value :- ");
+                if(x==g){
+                document.write("End");
+                bool=false;
+            }
+            else{
+               alert("you lost");
+            }
+        }
+            </script> -->
+</body>
+</html>

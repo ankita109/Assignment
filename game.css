@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    color:teal;
+}
+.lbl{
+    margin-left:350px;
+    margin-top:30px;
+    font-weight: bolder;
+}
+/* .inpu{
+    margin-left:600px;
+    margin-top:30px;
+} */
+ .sbtn{
+    margin-top:70px;
+    margin-left:300px;
+}
+#rbtn{
+    margin-left:400px;
+    margin-top:70px;
+} 
